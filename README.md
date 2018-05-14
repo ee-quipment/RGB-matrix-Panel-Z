@@ -13,15 +13,17 @@ BSD license, all text above must be included in any redistribution.
 
 
 # Useage
-To download. click the ZIP (download) button, rename the uncompressed folder RGBLEDMatrixZ. 
-Check that the RGBmatrixPanelZ folder contains RGBmatrixPanelZ.cpp and RGBmatrixPanelZ.h
+To download. click the ZIP (download) button, rename the uncompressed folder RGBLEDMatrixZero. 
+Check that the RGBmatrixPanelZero folder contains RGBmatrixPanelZero.cpp and RGBmatrixPanelZero.h
 
-Place the RGBmatrixPanelZ library folder your arduinosketchfolder/libraries/ folder. 
+Place the RGBmatrixPanelZero library folder your arduinosketchfolder/libraries/ folder. 
 You may need to create the libraries subfolder if its your first library. 
 Restart the IDE.
 
-In the Adafruit examples and in your code, replace all references to 'RGBLEDMatrix'
-with 'RGBLEDMatrixZ'.
+Your code and all examples at https://github.com/adafruit/RGB-matrix-Panel/tree/master/examples
+will now run unmodified on your Feather M0.
+
+<a href="https://oshpark.com/shared_projects/1QNzmjwa"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
 
 Build a wiring adapter on a proto board from the supplied schematic or order a PCB from
 Oshpark.com. Connect up to the panel and you are good to go!
