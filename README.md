@@ -1,13 +1,13 @@
-## RGB-matrix-Panel-Zero
+# RGB-matrix-Panel-Zero
 Forked Adafruit/RGB-matrix-Panel enhanced to work with Feather M0 boards.
 
-## What's different from the Adafruit RBG-matrix-Panel library?
+### What's different from the Adafruit RBG-matrix-Panel library?
 - Adds support for Feather M0 boards.
 - All changes are via #ifdef ARDUINO_SAMD_FEATHER_M0.
 - No change to the interface. Pin assignments in the constructor are ignored.
 - Adds an interrupt handler which pushes pixels directly out the hardware I/O port.
 
-# Useage
+### Useage
 To download. click the ZIP (download) button, rename the uncompressed folder RGBLEDMatrix. 
 Check that the RGBmatrixPanel folder contains RGBmatrixPanel.cpp and RGBmatrixPanel.h
 
