@@ -18,7 +18,14 @@ Restart the IDE.
 Your code and all examples at https://github.com/adafruit/RGB-matrix-Panel/tree/master/examples
 will now run unmodified on your Feather M0.
 
-Build a wiring adapter on a proto board from the supplied schematic or order a PCB from
-Oshpark.com. Connect up to the panel and you are good to go!
+### Pinout and connection
+The pinout is fixed. The SPI and I2C ports are free, but the LED_BUILTIN port is used. Don't try
+to control the LED or it will affect the panel display. There is a schematic with a bill of materials
+and Digikey part numbers for connectors if you wish to build an adapter on a proto board, or you can
+order a PCB from Oshpark.com. Eagle CAD files are also supplied if you want to do some customization.
 
 <a href="https://oshpark.com/shared_projects/1QNzmjwa"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
+
+![adapter_in_panel](./images/adapter_in_panel.jpg "adapter_in_panel")
+
+![adapter_and_feather_in_panel](./images/adapter_and_feather_in_panel.jpg "adapter_and_feather_in_panel")
