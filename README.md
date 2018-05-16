@@ -26,6 +26,6 @@ order a PCB from Oshpark.com. Eagle CAD files are also supplied if you want to d
 
 <a href="https://oshpark.com/shared_projects/1QNzmjwa"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
 
-![adapter_in_panel](./images/adapter_in_panel.jpg "adapter_in_panel")
+![](https://github.com/ee-quipment/RGB-matrix-Panel-Zero/tree/master/images/adapter_in_panel.jpg "Wiring Adapter in Panel")
 
-![adapter_and_feather_in_panel](./images/adapter_and_feather_in_panel.jpg "adapter_and_feather_in_panel")
+![](https://github.com/ee-quipment/RGB-matrix-Panel-Zero/tree/master/images/adapter_and_feather_in_panel.jpg "Wiring Adapter with Feather M0 in Panel")
