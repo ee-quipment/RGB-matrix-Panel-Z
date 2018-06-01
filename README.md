@@ -41,7 +41,7 @@ the processor/panel combination completely self-contained.
 
 <a href="https://oshpark.com/shared_projects/1QNzmjwa"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
 
-<p align="center"><img width="388" height="390" src="/images/Feather_M0_RGBmatrixPanel_Connection_Diagram2.png"></p>
+<p align="center"><img width="388" height="390" src="/images/Feather_M0_RGBmatrixPanel_Connection_Diagram.png"></p>
 
 <p align="center"><img width="388" height="390" src="/images/adapter_in_panel.jpg"></p>
 
