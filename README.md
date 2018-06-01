@@ -1,24 +1,32 @@
 # RGB-matrix-Panel-Zero
-Forked Adafruit/RGB-matrix-Panel enhanced to work with Feather M0 boards.
+Libraries to drive LED Matrix panels from the Arduino MKRZero and the Adafruit Feather M0 boards.
 
-### What's different from the Adafruit RBG-matrix-Panel library?
+### What's here?
+All sorts of stuff. Graphics drivers, adapter schematics, and PCBs.
+
+There are two libraries, a forked Adafruit/RGB-matrix-Panel to work with Feather M0 boards which
+will drive panels in 12 bit color, and a simpler, faster driver which works with both the Arduino
+and Feather boards but is limited to 8 colors.
+
+### Forked Adafruit RGBmatrixPanel Library
 - Adds support for Feather M0 boards.
+- Drives 16, 32, and 64 row panels.
 - All changes are via #ifdef ARDUINO_SAMD_FEATHER_M0.
 - No change to the interface. Pin assignments in the constructor are ignored.
 - Adds an interrupt handler which pushes pixels directly out the hardware I/O port.
 
-### Useage
-To download. click the ZIP (download) button, rename the uncompressed folder RGBLEDMatrix. 
-Check that the RGBmatrixPanel folder contains RGBmatrixPanel.cpp and RGBmatrixPanel.h
+This library directly replaces the RGBmatrixPanel.cpp from the Adafruit library. It is
+plug-and-play, no other changes are required. Any existing code and all examples at
+https://github.com/adafruit/RGB-matrix-Panel/tree/master/examples will now run unmodified
+on your Feather M0.
 
-Place the RGBmatrixPanel library folder your arduinosketchfolder/libraries/ folder. 
-You may need to create the libraries subfolder if its your first library. 
-Restart the IDE.
+### LEDpanel library
+This library supports both Arduino MKRZero and Feather M0 boards. It is strictly a driver that
+takes a pointer to a frame buffer and drives the display. Each pixel is one of 8 colors stored
+as the lowest 3 bits in a byte. ex: 00000BGR. The total display buffer size is (width * height) bytes.
+Panels up to 64 rows high are supported.
 
-Your code and all examples at https://github.com/adafruit/RGB-matrix-Panel/tree/master/examples
-will now run unmodified on your Feather M0.
-
-### Pinout and connection
+### Pinouts and connections
 The pinout is fixed. The SPI and I2C ports are free, but the LED_BUILTIN port is used. Don't try
 to control the LED or it will affect the panel display. There is a schematic with a bill of materials
 and Digikey part numbers for connectors if you wish to build an adapter on a proto board, or you can
