@@ -34,6 +34,11 @@ There are schematics for both boards with a bill of materials and Digikey part n
 if you wish to build an adapter on a proto board, or you can order a PCB from Oshpark.com. Eagle CAD
 files are also supplied if you want to do some customization.
 
+The adapter board can be confiured to directly plug into the back of the panel, or to connect to a
+ribbon cable. There is a bit of crosstalk when the ribbon cable is used, so for the nicest display
+plug it directly into the panel. You can also connect a power connector to the adapter board making
+the processor/panel combination completely self-contained.
+
 <a href="https://oshpark.com/shared_projects/1QNzmjwa"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
 
 <p align="center"><img width="388" height="390" src="/images/Feather_M0_RGBmatrixPanel_Connection_Diagram.png"></p>
