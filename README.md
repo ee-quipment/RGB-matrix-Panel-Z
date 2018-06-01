@@ -27,10 +27,12 @@ as the lowest 3 bits in a byte. ex: 00000BGR. The total display buffer size is (
 Panels up to 64 rows high are supported.
 
 ### Pinouts and connections
-The pinout is fixed. The SPI and I2C ports are free, but the LED_BUILTIN port is used. Don't try
-to control the LED or it will affect the panel display. There is a schematic with a bill of materials
-and Digikey part numbers for connectors if you wish to build an adapter on a proto board, or you can
-order a PCB from Oshpark.com. Eagle CAD files are also supplied if you want to do some customization.
+The pinout is fixed. The SPI and I2C ports are free and available. On the Feather M0 the LED_BUILTIN
+port is used. Don't try to control the LED or it will affect the panel display.
+
+There are schematics for both boards with a bill of materials and Digikey part numbers for connectors
+if you wish to build an adapter on a proto board, or you can order a PCB from Oshpark.com. Eagle CAD
+files are also supplied if you want to do some customization.
 
 <a href="https://oshpark.com/shared_projects/1QNzmjwa"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
 
