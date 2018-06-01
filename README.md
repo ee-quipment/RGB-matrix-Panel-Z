@@ -10,7 +10,7 @@ and Feather boards but is limited to 8 colors.
 
 ### Forked Adafruit RGBmatrixPanel Library
 - Adds support for Feather M0 boards.
-- Drives 16, 32, and 64 row panels.
+- Drives 16 and 32 row panels. See LEDpanel library for 64 row panels.
 - All changes are via #ifdef ARDUINO_SAMD_FEATHER_M0.
 - No change to the interface. Pin assignments in the constructor are ignored.
 - Adds an interrupt handler which pushes pixels directly out the hardware I/O port.
@@ -24,7 +24,7 @@ on your Feather M0.
 This library supports both Arduino MKRZero and Feather M0 boards. It is strictly a driver that
 takes a pointer to a frame buffer and drives the display. Each pixel is one of 8 colors stored
 as the lowest 3 bits in a byte. ex: 00000BGR. The total display buffer size is (width * height) bytes.
-Panels up to 64 rows high are supported.
+Panels with 16, 32, and 64 rows are supported.
 
 ### Pinouts and connections
 The pinout is fixed. The SPI and I2C ports are free and available. On the Feather M0 the LED_BUILTIN
