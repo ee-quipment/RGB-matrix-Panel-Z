@@ -39,11 +39,11 @@ ribbon cable. There is a bit of crosstalk when the ribbon cable is used, so for 
 plug it directly into the panel. You can also connect a power connector to the adapter board making
 the processor/panel combination completely self-contained.
 
+<a href="https://oshpark.com/shared_projects/7h8QPZrN">Oshpark FeatherWing</a>
+
+<a href="https://oshpark.com/shared_projects/TkdU88Pn">Oshpark MKR Shield</a>
 
 
-<a href="https://oshpark.com/shared_projects/TkdU88Pn">Oshpark FeatherWing</a>
-
-<a href="https://oshpark.com/shared_projects/7h8QPZrN">Oshpark MKR Shield</a>
 
 <p align="center"><img width="388" height="390" src="/images/Feather_M0_RGBmatrixPanel_Connection_Diagram.png"></p>
 
