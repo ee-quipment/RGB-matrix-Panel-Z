@@ -24,7 +24,7 @@ on your Feather M0.
 This library supports both Arduino MKRZero and Feather M0 boards. It is strictly a driver that
 takes a pointer to a frame buffer and drives the display. Each pixel is one of 8 colors stored
 as the lowest 3 bits in a byte. ex: 00000BGR. The total display buffer size is (width * height) bytes.
-Panels with 16, 32, and 64 rows are supported.
+Panels with 16, 32, and 64 rows are supported. A 32 x 32 panel can be refreshed at over 2 KHz.
 
 ### Pinouts and connections
 The pinout is fixed. The SPI and I2C ports are free and available. On the Feather M0 the LED_BUILTIN
@@ -35,8 +35,7 @@ if you wish to build an adapter on a proto board, or you can order a PCB from Os
 files are also supplied if you want to do some customization.
 
 The adapter board can be confiured to directly plug into the back of the panel, or to connect to a
-ribbon cable. There is a bit of crosstalk when the ribbon cable is used, so for the nicest display
-plug it directly into the panel. You can also connect a power connector to the adapter board making
+ribbon cable. You can also connect a power connector to the adapter board making
 the processor/panel combination completely self-contained.
 
 <a href="https://oshpark.com/shared_projects/7h8QPZrN">Oshpark FeatherWing</a>
