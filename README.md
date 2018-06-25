@@ -45,7 +45,6 @@ the processor/panel combination completely self-contained.
 
 
 <p align="center"><img width="388" height="390" src="/images/Feather_M0_RGBmatrixPanel_Connection_Diagram.png"></p>
+  
+<p align="center"><img src="/images/arduino_cable_to_panel.JPG" width="425"/> <img src="/images/featherwing_cable_to_panel.JPG" width="425"/>
 
-<p align="left"><img width="388" height="390" src="/images/arduino_cable_to_panel.jpg"></p>
-
-<p align="right"><img width="388" height="390" src="/images/featherwing_cable_to_panel.jpg"></p>
